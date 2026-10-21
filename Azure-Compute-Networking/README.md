@@ -49,12 +49,13 @@ Step 1: Azure Resource Group
 
 </p>
 
-
 <p>
 <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/f4f9acc2-8632-4caa-a9cc-11d4c7cb1ce9" />
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 2: Windows Virtual Machine Deployment
+
+  Created a Windows 11 Virtual Machine in Microsoft Azure within the lab's Resource Group. This virtual machine provides a Windows environment for practicing remote access, network connectivity, firewall configuration, and network traffic analysis
 </p>
 <br />
