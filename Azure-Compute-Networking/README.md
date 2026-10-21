@@ -22,13 +22,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- 1 Created an Azure Resource Group to organize the resources used in the lab
-- 2 Deployed a Windows 11 Virtual Machine in Azure
-- 3 Deployed an Ubuntu Linux Virtual Machine in Azure
-- 4 Configured firewall settings for network traffic testing
-- 5 Used Wireshark to capture and analyze network traffic
-- 6 Filtered ICMP traffic and observed Echo Request and Echo Reply packets
-- 7 Analyzed Network Protocols: Used Wireshark to capture and examine ICMP, SSH, DHCP, DNS, and RDP traffic to understand how different protocols communicate across a network  
+- Step 1: Created an Azure Resource Group to organize the resources used in the lab
+- Step 2: Deployed a Windows 11 Virtual Machine in Azure
+- Step 3: Deployed an Ubuntu Linux Virtual Machine in Azure
+- Step 4: Configured firewall settings for network traffic testing
+- Step 5: Used Wireshark to capture and analyze network traffic
+- Step 6: Filtered ICMP traffic and observed Echo Request and Echo Reply packets
+- Step 7: Analyzed Network Protocols: Used Wireshark to capture and examine ICMP, SSH, DHCP, DNS, and RDP traffic to understand how different protocols communicate across a network  
 
 <h2>Actions and Observations</h2>
 
