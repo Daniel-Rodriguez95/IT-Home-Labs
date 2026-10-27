@@ -64,5 +64,5 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <p>
   Step 3: Created an Ubuntu Linux Virtual Machine in Microsoft Azure within the same Resource Group as the Windows Virtual Machine. Deploying both Windows and Linux environments provides a foundation for practicing network connectivity, firewall configuration, and network traffic analysis between virtual machines
-  
+  <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/de0b725d-97ee-4e5d-82b8-751dd36bb083" />
 </p>
