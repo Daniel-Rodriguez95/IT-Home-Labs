@@ -71,8 +71,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-  Step 4:Wireshark Installation and Network Traffic Capture
+  Step 4: Wireshark Installation and Network Traffic Capture
   Installed Wireshark on the Windows Virtual Machine and used it to capture network traffic for analysis. This provided hands-on experience with packet capture and helped demonstrate how network communication can be monitored and examined using Wireshark
   <img width="994" height="665" alt="image" src="https://github.com/user-attachments/assets/54938cd9-548b-42a7-bca6-046e50032055" />
 
+</p>
+<br />
+<p>
+  Step 5: Filtered ICMP Traffic in Wireshark
+  Applied icmp display filter in Wireshark to isolate Internet Control Message Protocol (ICMP) packets. Examined Echo Request and Echo Reply packets to observe how devices exchange messages during network connectivity testing using ping
+ <img width="1357" height="1153" alt="image" src="https://github.com/user-attachments/assets/4b14aa82-7a85-4c1d-b05b-28be886bbfc8" />
+ <img width="1357" height="1153" alt="image" src="https://github.com/user-attachments/assets/5356dd05-1d4d-437d-aa1f-641f204e1aa9" />
+ <img width="1351" height="773" alt="image" src="https://github.com/user-attachments/assets/3bb33a83-9ba0-4901-8b16-568053d28bfc" />
+
+
+ 
 </p>
