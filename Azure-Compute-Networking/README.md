@@ -94,9 +94,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   Step 6: Configuring Firewall Settings for Network Traffic Testing
   Configured firewall settings in the Azure lab environment to control network traffic between virtual machines. This step helped demonstrate how firewall rules affect network connectivity and how traffic permissions can be managed when testing network protocols
   <img width="2398" height="935" alt="image" src="https://github.com/user-attachments/assets/f06762f3-0848-4c3b-94b2-83ae5601b273" />
-
   <img width="577" height="1198" alt="image" src="https://github.com/user-attachments/assets/789784b8-850b-484b-b56f-01a8ece5f3d7" />
-  
+  <img width="2399" height="1095" alt="image" src="https://github.com/user-attachments/assets/de323a94-a212-44ba-b632-88ee82e96dc3" />
   <img width="2389" height="774" alt="image" src="https://github.com/user-attachments/assets/46ee50b1-172c-40f3-a6f8-7f3111ebcaa9" />
   <img width="2400" height="1097" alt="image" src="https://github.com/user-attachments/assets/3c1571c5-fc47-4c3c-a948-88c8bfad7851" />
 
