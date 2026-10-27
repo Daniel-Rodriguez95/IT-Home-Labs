@@ -114,10 +114,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   If we go back into the Windows VM, we will now see that the pings are back and requesting and replying normally again
   <img width="2427" height="1200" alt="image" src="https://github.com/user-attachments/assets/27ab800a-aee6-4f42-93f0-fe4faca79134" />
 
-
-
-
-
+</p>
+<br />
+<p>
+  <h2>Observing SSH Traffic</h2>
 </p>
 
 
