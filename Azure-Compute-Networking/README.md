@@ -48,6 +48,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
+  Step 2: Windows Virtual Machine Deployment
+
+  Created a Windows 11 Virtual Machine in Microsoft Azure within the lab's Resource Group. This virtual machine provides a Windows environment for practicing remote access, network connectivity, firewall configuration, and network traffic analysis
 <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/c2137e2a-4770-420e-b000-72dfa01e9726" />
 
 </p>
@@ -56,9 +59,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/f4f9acc2-8632-4caa-a9cc-11d4c7cb1ce9" />
 
 </p>
-<p>
-Step 2: Windows Virtual Machine Deployment
 
-  Created a Windows 11 Virtual Machine in Microsoft Azure within the lab's Resource Group. This virtual machine provides a Windows environment for practicing remote access, network connectivity, firewall configuration, and network traffic analysis
 </p>
 <br />
