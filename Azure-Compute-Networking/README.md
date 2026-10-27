@@ -80,6 +80,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 </p>
 <br />
+<h2>Observing ICMP Traffic</h2>
 <p>
   Step 5: Filtered ICMP Traffic in Wireshark
   
