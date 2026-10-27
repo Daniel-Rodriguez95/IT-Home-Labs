@@ -25,9 +25,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 1: Created an Azure Resource Group to organize the resources used in the lab
 - Step 2: Deployed a Windows 11 Virtual Machine in Azure
 - Step 3: Deployed an Ubuntu Linux Virtual Machine in Azure
-- Step 4: Configured firewall settings for network traffic testing
-- Step 5: Used Wireshark to capture and analyze network traffic
-- Step 6: Filtered ICMP traffic and observed Echo Request and Echo Reply packets
+- Step 4: Used Wireshark to capture and analyze network traffic
+- Step 5: Filtered ICMP traffic and observed Echo Request and Echo Reply packets 
+- Step 6: Configured firewall settings for network traffic testing 
 - Step 7: Analyzed Network Protocols: Used Wireshark to capture and examine ICMP, SSH, DHCP, DNS, and RDP traffic to understand how different protocols communicate across a network  
 
 <h2>Actions and Observations</h2>
@@ -64,5 +64,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <p>
   Step 3: Created an Ubuntu Linux Virtual Machine in Microsoft Azure within the same Resource Group as the Windows Virtual Machine. Deploying both Windows and Linux environments provides a foundation for practicing network connectivity, firewall configuration, and network traffic analysis between virtual machines
-  <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/de0b725d-97ee-4e5d-82b8-751dd36bb083" />
+  <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/cfa7cd32-cac8-4b2b-ace6-921546741888" />
+
+</p>
+<br />
+
+<p>
+  Step 4:Wireshark Installation and Network Traffic Capture
+  Installed Wireshark on the Windows Virtual Machine and used it to capture network traffic for analysis. This provided hands-on experience with packet capture and helped demonstrate how network communication can be monitored and examined using Wireshark
+  
 </p>
