@@ -73,5 +73,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   Step 4:Wireshark Installation and Network Traffic Capture
   Installed Wireshark on the Windows Virtual Machine and used it to capture network traffic for analysis. This provided hands-on experience with packet capture and helped demonstrate how network communication can be monitored and examined using Wireshark
-  
+  <img width="994" height="665" alt="image" src="https://github.com/user-attachments/assets/54938cd9-548b-42a7-bca6-046e50032055" />
+
 </p>
