@@ -33,15 +33,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-  
+  Step 1: Azure Resource Group
+
+  Created an Azure Resource Group to organize and manage the virtual machines and related resources used in this lab. This provides a central location for managing the lab's cloud infrastructure.
 <img width="2547" height="1196" alt="image" src="https://github.com/user-attachments/assets/e9f1ad83-45f2-42e1-9476-2ef3d625055c" />
 
 
 
 </p>
-Step 1: Azure Resource Group
-
-  Created an Azure Resource Group to organize and manage the virtual machines and related resources used in this lab. This provides a central location for managing the lab's cloud infrastructure.
+<img width="2547" height="1196" alt="image" src="https://github.com/user-attachments/assets/e9f1ad83-45f2-42e1-9476-2ef3d625055c" />
 </p>
 
 
