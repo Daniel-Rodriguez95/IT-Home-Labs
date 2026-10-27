@@ -103,12 +103,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   We will enter these settings so that we block pings from any source, select deny for the actions, and set the priority to 290 so that it appears first
   
   <img width="577" height="1198" alt="image" src="https://github.com/user-attachments/assets/92cf06ff-6b9f-4d18-8dcc-3c821df80c25" />
-  We can now go back into the Windows VM and observe that the pings are timing out due to the firewall we just set up
+ 
   <img width="2399" height="1095" alt="image" src="https://github.com/user-attachments/assets/de323a94-a212-44ba-b632-88ee82e96dc3" />
-  To take off the firewall we go back into Microsoft Azure and just select the trash icon on the far right. Select Delete security rule
+  We can now go back into the Windows VM and observe that the pings are timing out due to the firewall we just set up
   <img width="2389" height="774" alt="image" src="https://github.com/user-attachments/assets/46ee50b1-172c-40f3-a6f8-7f3111ebcaa9" />
+  To take off the firewall we go back into Microsoft Azure and just select the trash icon on the far right. Select Delete security rule
   <img width="2400" height="1097" alt="image" src="https://github.com/user-attachments/assets/3c1571c5-fc47-4c3c-a948-88c8bfad7851" />
-
+  If we go back into the Windows VM, we will now see that the pings are back and requesting and replying normally again
   <img width="2427" height="1200" alt="image" src="https://github.com/user-attachments/assets/27ab800a-aee6-4f42-93f0-fe4faca79134" />
 
 
