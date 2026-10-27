@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   Step 1: Azure Resource Group
 
-  Created an Azure Resource Group to organize and manage the virtual machines and related resources used in this lab. This provides a central location for managing the lab's cloud infrastructure.
+  Inside Microsoft Azure, you can go to the search bar at the top, type in Resource Group, and select the first option that appears. Once there, you will create an Azure Resource Group to organize and manage the virtual machines and related resources used in this lab. This provides a central location for managing the lab's cloud infrastructure. Once the Resource Group is created, it's time to create a Virtual Machine
 
 
 
@@ -50,7 +50,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <p>
   Step 2: Windows Virtual Machine Deployment
 
-  Created a Windows 11 Virtual Machine in Microsoft Azure within the lab's Resource Group. This virtual machine provides a Windows environment for practicing remote access, network connectivity, firewall configuration, and network traffic analysis
+ In the search bar, you will type in virtual machine and select Virtual machine. Once there, you will click and create a Windows 11 Virtual Machine in Microsoft Azure within the lab's Resource Group. This virtual machine provides a Windows environment for practicing remote access, network connectivity, firewall configuration, and network traffic analysis
 <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/c2137e2a-4770-420e-b000-72dfa01e9726" />
 
 </p>
@@ -64,7 +64,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 <p>
-  Step 3: Created an Ubuntu Linux Virtual Machine in Microsoft Azure within the same Resource Group as the Windows Virtual Machine. Deploying both Windows and Linux environments provides a foundation for practicing network connectivity, firewall configuration, and network traffic analysis between virtual machines
+  Step 3: Ubuntu Linux Virtual Machine Deployment
+  
+  Once the Windows Virtual Machine(VM) is created, we will follow the same steps to create an Ubuntu Linux Virtual Machine in Microsoft Azure within the same Resource Group as the Windows Virtual Machine. Deploying both Windows and Linux environments provides a foundation for practicing network connectivity, firewall configuration, and network traffic analysis between virtual machines. After the 2 VMs are created, we can go into the Windows VM to install Wireshark for step 4
   <img width="2023" height="1197" alt="image" src="https://github.com/user-attachments/assets/cfa7cd32-cac8-4b2b-ace6-921546741888" />
 
 </p>
@@ -72,18 +74,21 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <p>
   Step 4: Wireshark Installation and Network Traffic Capture
-  Installed Wireshark on the Windows Virtual Machine and used it to capture network traffic for analysis. This provided hands-on experience with packet capture and helped demonstrate how network communication can be monitored and examined using Wireshark
+  
+  Once Wireshark is installed on the Windows Virtual Machine, we can use it to capture network traffic for analysis. This provided hands-on experience with packet capture and helped demonstrate how network communication can be monitored and examined using Wireshark
   <img width="994" height="665" alt="image" src="https://github.com/user-attachments/assets/54938cd9-548b-42a7-bca6-046e50032055" />
 
 </p>
 <br />
 <p>
   Step 5: Filtered ICMP Traffic in Wireshark
-  Applied icmp display filter in Wireshark to isolate Internet Control Message Protocol (ICMP) packets. Examined Echo Request and Echo Reply packets to observe how devices exchange messages during network connectivity testing using ping
+  
+  In the bar that says "Apply a display filter" we can enter "icmp" to filter packets in Wireshark to isolate Internet Control Message Protocol (ICMP) packets. Once the filter is added, we can bring up PowerShell to ping the Linux VM and examine Echo Request and Echo Reply packets to observe how devices exchange messages during network connectivity testing using ping
  <img width="1357" height="1153" alt="image" src="https://github.com/user-attachments/assets/4b14aa82-7a85-4c1d-b05b-28be886bbfc8" />
  <img width="1357" height="1153" alt="image" src="https://github.com/user-attachments/assets/5356dd05-1d4d-437d-aa1f-641f204e1aa9" />
+  If we click on any packet in Wireshark, we can see more details about it
  <img width="1351" height="773" alt="image" src="https://github.com/user-attachments/assets/3bb33a83-9ba0-4901-8b16-568053d28bfc" />
-  After confirming that I'm able to see the ICMP packets, I now go ahead and enter -t command in Powershell to start a never-ending ping so that I can move on to step 6
+  After confirming that we're able to see the ICMP packets, We can now go ahead and enter -t command in PowerShell to start a never-ending ping so that we can move on to step 6
   <img width="1114" height="629" alt="image" src="https://github.com/user-attachments/assets/83afc316-af72-457f-8c34-a8bfa5f4bf5b" />
   <img width="1114" height="629" alt="image" src="https://github.com/user-attachments/assets/a1ac69af-3c0e-44cf-9f8c-cc72767a461e" />
 
@@ -92,9 +97,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <p>
   Step 6: Configuring Firewall Settings for Network Traffic Testing
-  Configured firewall settings in the Azure lab environment to control network traffic between virtual machines. This step helped demonstrate how firewall rules affect network connectivity and how traffic permissions can be managed when testing network protocols
+  
+  Going back into Microsoft Azure, we can look for VMs and click on the Linux VM, click on the Networking section, select Network Settings, and then select Create Port Rule, Inbound Port Rule. 
   <img width="2398" height="935" alt="image" src="https://github.com/user-attachments/assets/f06762f3-0848-4c3b-94b2-83ae5601b273" />
-  <img width="577" height="1198" alt="image" src="https://github.com/user-attachments/assets/789784b8-850b-484b-b56f-01a8ece5f3d7" />
+  We will enter these settings so that we block pings from any source, select deny for the actions, and set the priority to 290 so that it appears first
+  <img width="577" height="1198" alt="image" src="https://github.com/user-attachments/assets/92cf06ff-6b9f-4d18-8dcc-3c821df80c25" />
+
   <img width="2399" height="1095" alt="image" src="https://github.com/user-attachments/assets/de323a94-a212-44ba-b632-88ee82e96dc3" />
   <img width="2389" height="774" alt="image" src="https://github.com/user-attachments/assets/46ee50b1-172c-40f3-a6f8-7f3111ebcaa9" />
   <img width="2400" height="1097" alt="image" src="https://github.com/user-attachments/assets/3c1571c5-fc47-4c3c-a948-88c8bfad7851" />
