@@ -97,6 +97,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
 <br />
 <p>
+  <h2>Adding/Removing Firewall Protection</h2>
   Step 6: Configuring Firewall Settings for Network Traffic Testing
   
   Going back into Microsoft Azure, we can look for VMs and click on the Linux VM, click on the Networking section, select Network Settings, and then select Create Port Rule, Inbound Port Rule. 
