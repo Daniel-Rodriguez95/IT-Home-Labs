@@ -83,6 +83,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
  <img width="1357" height="1153" alt="image" src="https://github.com/user-attachments/assets/4b14aa82-7a85-4c1d-b05b-28be886bbfc8" />
  <img width="1357" height="1153" alt="image" src="https://github.com/user-attachments/assets/5356dd05-1d4d-437d-aa1f-641f204e1aa9" />
  <img width="1351" height="773" alt="image" src="https://github.com/user-attachments/assets/3bb33a83-9ba0-4901-8b16-568053d28bfc" />
+  After confirming that I'm able to see the ICMP packets, I now go ahead and enter -t command in Powershell to start a never-ending ping so that I can move on to step 6
+  <img width="1114" height="629" alt="image" src="https://github.com/user-attachments/assets/83afc316-af72-457f-8c34-a8bfa5f4bf5b" />
+  <img width="1114" height="629" alt="image" src="https://github.com/user-attachments/assets/a1ac69af-3c0e-44cf-9f8c-cc72767a461e" />
+
+
 </p>
 <br />
 <p>
