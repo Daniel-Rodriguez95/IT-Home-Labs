@@ -28,7 +28,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 4: Used Wireshark to capture and analyze network traffic
 - Step 5: Filtered ICMP traffic and observed Echo Request and Echo Reply packets 
 - Step 6: Configured firewall settings for network traffic testing 
-- Step 7: Analyzed Network Protocols: Used Wireshark to capture and examine ICMP, SSH, DHCP, DNS, and RDP traffic to understand how different protocols communicate across a network  
+- Step 7: Analyzed Network Protocols: Used Wireshark to capture and examine SSH, DHCP, DNS, and RDP traffic to understand how different protocols communicate across a network  
 
 <h2>Actions and Observations</h2>
 
