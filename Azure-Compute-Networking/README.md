@@ -118,8 +118,30 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 <p>
   <h2>Observing SSH Traffic</h2>
+  <img width="1549" height="838" alt="image" src="https://github.com/user-attachments/assets/aee7fa3d-32b7-45f0-90af-c24b0fc89155" />
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/26b9ee8a-9645-41f2-8300-3bd0e7d315c8" />
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/1d89e0e0-68c2-44b8-b6d6-11f91fff28ff" />
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/c948296e-28d5-42eb-95ce-093f997d19ca" />
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/1b2a2395-6b47-4cf9-82c6-17b264eb64fa" />
+
 </p>
+<br />
+<p>
+  <h2>Observing DHCP Traffic</h2>
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/e07c5fea-fe5d-438d-a7fc-072131f3c426" />
+</p>
+<br />
+<p>
+  <h2>Observing DNS Traffic</h2>
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/af846426-5b65-411a-bd0d-f8d52f745745" />
+  <img width="1585" height="1297" alt="image" src="https://github.com/user-attachments/assets/f53f55b0-5f20-40ae-ab39-3489bee294d3" />
+  </p>
+<br />
+<p>
+  <h2>Observing RDP Traffic</h2>
+<img width="1585" height="835" alt="image" src="https://github.com/user-attachments/assets/27be1af7-f56c-4673-a8d9-988f6cc76b58" />
 
 
+</p>
  
 </p>
