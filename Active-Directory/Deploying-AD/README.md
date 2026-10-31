@@ -12,7 +12,9 @@ The purpose of this lab was to install and configure Active Directory, promote t
 
 - Microsoft Azure (Virtual Machines/Virtual Networks)
 - Remote Desktop
-- PowerShell
+- Server Manager
+- Active Directory Domain Services
+- Active Directory Users and Computers
 
 <h2>Operating Systems Used </h2>
 
