@@ -13,6 +13,8 @@ The purpose of this lab was to focus on creating and configuring the necessary c
 - Microsoft Azure (Virtual Machines/Virtual Networks)
 - Remote Desktop
 - PowerShell
+- Run Command
+- Windows Defender Firewall 
 
 <h2>Operating Systems Used </h2>
 
